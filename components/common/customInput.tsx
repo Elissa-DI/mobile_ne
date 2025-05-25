@@ -36,7 +36,7 @@ const CustomInput: React.FC<CustomInputProps> = ({
       <Text className="absolute left-3 top-[-8px] text-xs bg-gray-100 px-3 font-bold">
         {label}
       </Text>
-      <View className="w-full flex-row items-center px-3 py-2">
+      <View className="w-full flex-row items-center px-3 py-1.5">
         <TextInput
           className="flex-1 text-gray-700 font-semibold"
           placeholder={placeholder}

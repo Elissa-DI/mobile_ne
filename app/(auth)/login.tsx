@@ -23,8 +23,8 @@ const LoginPage = () => {
   return (
     <SafeAreaView className="flex-1">
       <ScrollView className="flex-1 px-3">
-        <View className="flex-1 items-center justify-center">
-          <Text className="text-3xl font-bold">Sign In</Text>
+        <View className="flex-1 items-center justify-center mt-10">
+          <Text className="text-2xl font-bold">Sign In</Text>
           <Text className="font-bold text-gray-400 mt-2">
             Hi! Welcome back, you’ve been missed
           </Text>
@@ -47,7 +47,7 @@ const LoginPage = () => {
             type="password"
           />
           <View className="flex-row justify-end mt-1">
-            <Link href="/(auth)/register" className="font-semibold text-sky-500">
+            <Link href="/(auth)/forgot" className="font-semibold text-sky-500">
               Forgot Password?
             </Link>
           </View>

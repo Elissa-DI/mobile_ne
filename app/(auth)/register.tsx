@@ -25,8 +25,8 @@ const RegisterPage = () => {
   return (
     <SafeAreaView className="flex-1">
       <ScrollView className="flex-1 px-3">
-        <View className="flex-1 items-center justify-center">
-          <Text className="text-3xl font-bold">Sign Up</Text>
+        <View className="flex-1 items-center justify-center mt-10">
+          <Text className="text-2xl font-bold">Sign Up</Text>
           <Text className="font-bold text-gray-400 mt-2">
             Create your account to get started
           </Text>
