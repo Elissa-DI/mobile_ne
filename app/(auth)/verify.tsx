@@ -27,7 +27,7 @@ const VerifyOtpPage = () => {
           </Text>
         </View>
 
-        <View className="mt-2 items-center">
+        <View className="mt-2 items-center bg-blue-300 h-20">
           <OTPInputView
             pinCount={6}
             style={{ width: "100%" }}

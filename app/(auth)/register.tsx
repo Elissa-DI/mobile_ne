@@ -86,7 +86,7 @@ const RegisterPage = () => {
           <Text className="text-gray-400 font-semibold text-center">
             Already have an account?
           </Text>
-          <Link href="/(auth)/login" className="font-bold text-sky-500">
+          <Link href="/(auth)/login" className="font-bold text-sky-500 underline">
             Login
           </Link>
         </View>

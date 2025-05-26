@@ -47,7 +47,7 @@ const LoginPage = () => {
             type="password"
           />
           <View className="flex-row justify-end mt-1">
-            <Link href="/(auth)/forgot" className="font-semibold text-sky-500">
+            <Link href="/(auth)/forgot" className="font-semibold text-sky-500 underline">
               Forgot Password?
             </Link>
           </View>
@@ -67,7 +67,7 @@ const LoginPage = () => {
           <Text className="text-gray-400 font-semibold text-center">
             Don&#39;t have an account?
           </Text>
-          <Link href="/(auth)/register" className="font-bold text-sky-500">
+          <Link href="/(auth)/register" className="font-bold text-sky-500 underline">
             Signup
           </Link>
         </View>

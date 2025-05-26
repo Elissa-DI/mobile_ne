@@ -1,12 +1,13 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import React from "react";
+import CustomHeader from "@/components/common/customHeader";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 const HomePage = () => {
   return (
-    <View>
-      <Text>HomePage</Text>
-    </View>
-  )
-}
+    <SafeAreaView className="flex-1 bg-white">
+      <CustomHeader title="Home" hideIcons={false} />
+    </SafeAreaView>
+  );
+};
 
-export default HomePage
+export default HomePage;
